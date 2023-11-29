@@ -66,3 +66,11 @@
     padding: 0; /* enlève les padding par défaut */
     gap: 1rem; /* espace entre les enfants */
 }
+
+.caroussel_lien {
+
+}
+
+.caroussel_lien.actif {
+    border: 1px solid red;
+}
