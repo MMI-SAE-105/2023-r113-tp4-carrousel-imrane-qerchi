@@ -68,9 +68,12 @@
 }
 
 .caroussel_lien {
-
+    color: #333; /* Couleur par défaut pour les liens inactifs */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.3s ease; /* Ajoute une transition pour un effet en douceur */
 }
 
 .caroussel_lien.actif {
-    border: 1px solid red;
+    color: #ff5733; /* Couleur pour le lien actif */
+    font-weight: bold; /* Mise en évidence du lien actif */
 }
